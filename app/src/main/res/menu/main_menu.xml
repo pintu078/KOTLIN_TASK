@@ -12,8 +12,11 @@
             android:id="@+id/nav_frag_viewPager"
             android:title="Fragment + ViewPager + TabLayout" />
         <item
-            android:id="@+id/nav_task2"
-            android:title="task 2" />
+            android:id="@+id/nav_recycler"
+            android:title="Recycler View" />
+        <item
+            android:id="@+id/nav_room"
+            android:title="Room Database" />
 
     </group>
 

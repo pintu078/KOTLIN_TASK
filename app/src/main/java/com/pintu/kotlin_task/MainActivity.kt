@@ -14,6 +14,8 @@ import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
 import com.pintu.kotlin_task.frag_viewpager_tablayout.Frag_ViewPager
 import com.pintu.kotlin_task.fragment.Fragment
+import com.pintu.kotlin_task.view.Recycler.Recycler_Ex
+import com.pintu.kotlin_task.view.note.MainNote
 
 class MainActivity : AppCompatActivity(),NavigationView.OnNavigationItemSelectedListener {
 
@@ -80,8 +82,15 @@ class MainActivity : AppCompatActivity(),NavigationView.OnNavigationItemSelected
                 val intent = Intent(this,Frag_ViewPager::class.java)
                 startActivity(intent)
             }
-            R.id.nav_task2 -> {
-                Toast.makeText(this, "Task 2", Toast.LENGTH_SHORT).show()
+            R.id.nav_recycler -> {
+                Toast.makeText(this, "Recycler Example", Toast.LENGTH_SHORT).show()
+                val intent = Intent(this,Recycler_Ex::class.java)
+                startActivity(intent)
+            }
+            R.id.nav_room -> {
+                Toast.makeText(this, "ROOM DATABASE", Toast.LENGTH_SHORT).show()
+                val intent = Intent(this,MainNote::class.java)
+                startActivity(intent)
             }
 
         }

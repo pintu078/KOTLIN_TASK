@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.pintu.kotlin_task">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".frag_viewpager_tablayout.Frag_ViewPager"></activity>
+        <activity android:name=".view.note.MainNote"></activity>
+        <activity android:name=".view.Recycler.Recycler_Ex" />
+        <activity android:name=".frag_viewpager_tablayout.Frag_ViewPager" />
         <activity android:name=".fragment.ImageFragment" />
         <activity android:name=".fragment.TextFragment" />
         <activity android:name=".fragment.Fragment" />
