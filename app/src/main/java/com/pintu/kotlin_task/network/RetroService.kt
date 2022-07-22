@@ -7,6 +7,6 @@ import retrofit2.http.GET
 interface RetroService {
 
     @GET("users")
-    fun getUsers(): Call<MutableList<User>>
+     fun getUsers(): Call<MutableList<User>>
 
 }

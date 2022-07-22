@@ -32,13 +32,12 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginTop="38dp"
-            android:gravity="center"
-            android:visibility="invisible"
             android:background="@drawable/img_profile"
+            android:gravity="center"
+            android:textColor="@color/white"
             android:textSize="40sp"
             android:textStyle="bold"
-            android:textColor="@color/white"
-            />
+            android:visibility="invisible" />
 
     </RelativeLayout>
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kotlin_Task</string>
+    <string name="hello">हॅलो वर्ल्ड</string>
+    <string name="android">Android प्रशिक्षण</string>
+    <string name="tutlane">प्रशिक्षण पथ</string>
+    <string name="reigster">नोंदणी करा</string>
+</resources>

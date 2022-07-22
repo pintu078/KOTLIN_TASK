@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="get_random_dog_image">Get Random Image</string>
+    <string name="app_name">स्थानीयकरणउदाहरण</string>
+    <string name="hello">नमस्तेदुनिया</string>
+    <string name="tutlane">ट्यूटोरियलगली</string>
+    <string name="android">एंड्रॉयडट्यूटोरियल</string>
+    <string name="reigster">रजिस्टर</string>
+</resources>

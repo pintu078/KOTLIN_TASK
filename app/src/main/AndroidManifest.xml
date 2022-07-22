@@ -4,6 +4,8 @@
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 
     <application
         android:allowBackup="true"
@@ -12,7 +14,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.note.MainNote"></activity>
+        <activity android:name=".view.localization.Localization"></activity>
+        <activity android:name=".view.bluetooth.BlueTooth" />
+        <activity android:name=".view.corutines.Corutine" />
+        <activity android:name=".view.sqllite.SqlLite" />
+        <activity android:name=".view.note.MainNote" />
         <activity android:name=".view.Recycler.Recycler_Ex" />
         <activity android:name=".frag_viewpager_tablayout.Frag_ViewPager" />
         <activity android:name=".fragment.ImageFragment" />

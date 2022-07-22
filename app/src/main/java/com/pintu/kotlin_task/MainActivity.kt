@@ -15,7 +15,11 @@ import com.google.android.material.navigation.NavigationView
 import com.pintu.kotlin_task.frag_viewpager_tablayout.Frag_ViewPager
 import com.pintu.kotlin_task.fragment.Fragment
 import com.pintu.kotlin_task.view.Recycler.Recycler_Ex
+import com.pintu.kotlin_task.view.bluetooth.BlueTooth
+import com.pintu.kotlin_task.view.corutines.Corutine
+import com.pintu.kotlin_task.view.localization.Localization
 import com.pintu.kotlin_task.view.note.MainNote
+import com.pintu.kotlin_task.view.sqllite.SqlLite
 
 class MainActivity : AppCompatActivity(),NavigationView.OnNavigationItemSelectedListener {
 
@@ -90,6 +94,26 @@ class MainActivity : AppCompatActivity(),NavigationView.OnNavigationItemSelected
             R.id.nav_room -> {
                 Toast.makeText(this, "ROOM DATABASE", Toast.LENGTH_SHORT).show()
                 val intent = Intent(this,MainNote::class.java)
+                startActivity(intent)
+            }
+            R.id.nav_sql -> {
+                Toast.makeText(this, "SQL DATABASE", Toast.LENGTH_SHORT).show()
+                val intent = Intent(this,SqlLite::class.java)
+                startActivity(intent)
+            }
+            R.id.nav_co -> {
+                Toast.makeText(this, "Corutine", Toast.LENGTH_SHORT).show()
+                val intent = Intent(this,Corutine::class.java)
+                startActivity(intent)
+            }
+            R.id.nav_bluetooth -> {
+                Toast.makeText(this, "bluetooth", Toast.LENGTH_SHORT).show()
+                val intent = Intent(this,BlueTooth::class.java)
+                startActivity(intent)
+            }
+            R.id.nav_localization -> {
+                Toast.makeText(this, "Localization", Toast.LENGTH_SHORT).show()
+                val intent = Intent(this, Localization::class.java)
                 startActivity(intent)
             }
 

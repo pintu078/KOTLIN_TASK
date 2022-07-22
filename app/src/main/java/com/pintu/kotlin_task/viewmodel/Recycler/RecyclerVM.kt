@@ -27,7 +27,7 @@ class RecyclerVM (application: Application) : AndroidViewModel(application) {
     }
 
 
-    fun makeApiCall() {
+     fun makeApiCall() {
         val retroInstance = RetroInstance.getRetroInstance().create(RetroService::class.java)
         val call = retroInstance.getUsers()
         call.enqueue(object : retrofit2.Callback<MutableList<User>> {

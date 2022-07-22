@@ -49,6 +49,5 @@ class Recycler_Ex : AppCompatActivity() {
 
         })
         viewModel.makeApiCall()
-
     }
 }
